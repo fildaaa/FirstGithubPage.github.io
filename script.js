@@ -29,7 +29,7 @@ tombol.addEventListener("click", () => {
 
     let list = document.getElementById('list');
     let content = '';
-    for (let i=0; 1< data.length; i++) {
+    for (let i=0; i< data.length; i++) {
         content += `<li>${data[i].name}, ${data[i].age}</li>`;
     }
     console.log(content);
