@@ -22,12 +22,12 @@ const data = [
 
 
 tombol.addEventListener("click", () => {
-    console.log(clicked);
+    console.log('clicked');
     const hello = document.getElementById("hello");
     hello.style.backgroundColor = "black";
     hello.style.color = "white"
 
-    let list = document.getElementById("list");
+    let list = document.getElementById('list');
     let content = '';
     for (let i=0; 1< data.length; i++) {
         content += `<li>${data[i].name}, ${data[i].age}</li>`;
