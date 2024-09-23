@@ -6,15 +6,15 @@ const data = [
         id:1,
         name:'barbie',
         age: 20
-    }
+    },
     {
         id: 2,
         name: 'skipper',
         age: 15
-    }
+    },
     {
         id: 3,
-        name: 'stacie'
+        name: 'stacie',
         age: 12
     }
 ]
